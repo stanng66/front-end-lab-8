@@ -37,13 +37,6 @@ function App() {
         <Route path="/success" element={<Success />} />
         <Route path="/price/:price" element={<Price />} />
       </Routes>
-
-      {/* Step 1.3: No validation for forms is required. */}
-      <form onSubmit={handleSubmit}>
-        <input placeholder='Username' />
-        <input placeholder='Password' />
-        <button type='submit'> Login </button>
-      </form>
       </BrowserRouter>
     </div>
   );
