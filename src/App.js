@@ -21,11 +21,17 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <div>
+        <h1> React Router and Routing </h1>
+        <h2> Stanley Nguyen </h2>
+        <h3> Lab 8 </h3>
+      </div>
+
       <nav>
         <Link to="/home">Home</Link> {"   "}
         <Link to="/login">Login</Link> {"   "}
         {/* Step 1.1: Create a Links in App.js. It should have a few options such as "home," "login," "register." */}
-        <Link to="/register">Register</Link> |{" "}
+        <Link to="/register">Register</Link> {" "}
         <Link to="/price/500">Price Example</Link>
       </nav>
 

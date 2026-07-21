@@ -13,6 +13,7 @@ import { useNavigate } from "react-router-dom";
 export default function Register() {
   const navigate = useNavigate();
 
+  // Step 2.1: Once the User presses the submit button on the login/register forms, the user should be redirected to a separate component showing that the action has been successful.
   const handleSubmit = (e) => {
     e.preventDefault();
     navigate("/success");

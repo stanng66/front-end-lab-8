@@ -11,9 +11,8 @@
 export default function Home(){
     return(
         <div>
-           <h1> This program practices React Router </h1>
-           <h2> Stanley Nguyen </h2>
-           <h3> Welcome to lab 8 </h3>
+           <h3> Welcome to the Home Page </h3>
+           <h4> This program practices React Router </h4>
         </div>
     )
 }
