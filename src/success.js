@@ -10,5 +10,5 @@
 // ====================
 // Step 2.1: Once the User presses the submit button on the login/register forms, the user should be redirected to a separate component showing that the action has been successful.
 export default function Success() {
-  return <h1>Action completed successfully!</h1>;
+  return <h1> Action has been completed successfully! </h1>;
 }

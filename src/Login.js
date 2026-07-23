@@ -23,6 +23,7 @@ export default function Login(){
     return(
         <div>
             <h2>Login</h2>
+            {/* Step 1.2: For example, for login, there should be a login form */}
             <form onSubmit={handleSubmit}>
               <input placeholder='Username' />
               <input placeholder='Password' />

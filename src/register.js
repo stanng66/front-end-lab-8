@@ -22,6 +22,7 @@ export default function Register() {
   return (
     <div>
       <h2>Register</h2>
+      {/* Step 1.2: For example, for register, there should be a registration form */}
       <form onSubmit={handleSubmit}>
         <input placeholder="Email" />
         <input placeholder="Password" />
