@@ -16,7 +16,7 @@ export default function Price() {
 
   return (
     <div>
-      <h2>The price is: {price}</h2>
+      <h2> The price is: {price} </h2>
     </div>
   );
 }

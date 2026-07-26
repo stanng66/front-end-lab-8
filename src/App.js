@@ -12,7 +12,6 @@ import './App.css';
 import { BrowserRouter,Route,Routes,Link } from 'react-router-dom';
 import Home from './Home';
 import Login from './Login';
-// Step 1.1: Create a Links in App.js. It should have a few options such as "home," "login," "register."
 import Register from "./register";
 import Success from "./success";
 import Price from "./price";
@@ -28,17 +27,17 @@ function App() {
       </div>
 
       <nav>
+        {/* Step 1.1: Create a Links in App.js. It should have a few options such as "home," "login," "register." */}
         <Link to="/home">Home</Link> {"   "}
         <Link to="/login">Login</Link> {"   "}
-        {/* Step 1.1: Create a Links in App.js. It should have a few options such as "home," "login," "register." */}
-        <Link to="/register">Register</Link> {" "}
-        <Link to="/price/500">Price Example</Link>
+        <Link to="/register"> Register</Link> {"   "}
+        <Link to="/price/600">Price</Link>
       </nav>
 
       <Routes>
+        {/* Step 1.2: Using react-router, Each option should load a specific component relevant to that option. */}
         <Route path="/home" element={<Home />} />
         <Route path="/login" element={<Login />} />
-        {/* Step 1.2: Using react-router , Each option should load a specific component relevant to that option. */}
         <Route path="/register" element={<Register />} />
         <Route path="/success" element={<Success />} />
         <Route path="/price/:price" element={<Price />} />
