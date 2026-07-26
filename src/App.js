@@ -9,7 +9,7 @@
 // This program demonstrates react router and routing
 // ====================
 import './App.css';
-import { BrowserRouter,Routes,Route,Link } from 'react-router-dom';
+import { BrowserRouter,Route,Routes,Link } from 'react-router-dom';
 import Home from './Home';
 import Login from './Login';
 // Step 1.1: Create a Links in App.js. It should have a few options such as "home," "login," "register."
